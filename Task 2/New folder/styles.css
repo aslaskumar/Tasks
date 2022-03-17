@@ -1,0 +1,275 @@
+
+}
+.navbar {
+    top:0;
+    display: flex;
+    justify-content: space-between;
+    width: 1024px; 
+    background-color: #00000042;
+    overflow: auto;
+    align-content: center;
+    position: fixed;
+}
+
+.navbar > header:first-child {
+    height: 50px;
+    overflow: visible;
+    background-color: #222;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.185);
+}
+
+header div h1.logo{
+    font-size: 1em;
+    font-weight: 40;
+    text-decoration: none;
+}
+header div h1.logo span{
+    font-weight: lighter;
+    text-decoration: none;
+}
+header{
+    display: flex;
+    align-items: center;
+    padding: 0px 80px;
+    box-sizing: border-box;
+    align-items: center;
+    background-color: red;
+}
+header ul.nav>li>a{
+    text-decoration: none;
+    color: gray;
+}
+
+.col-xs-4 {
+  /*  width: 25%; */
+    display:flex;
+    /* color: #9d9d9d;
+    position: absolute; */
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.col-xs-8{
+    width: 4%;
+    color: #9d9d9d;
+    padding: 4%;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    right:60;
+    left:50;
+}
+.col-xs-6{
+    width: 20%;
+    position: absolute;
+    right:540px;
+    left:90;
+    color: #9d9d9d;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+header ul.nav {
+    width: 30%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    color: #9d9d9d;
+    flex-direction: row;
+    justify-content: space-around;
+    position: relative;
+    right: -80px;
+}
+header ul.nav >li > ul{
+    position: absolute;
+    top: 36px;
+    left:0;
+    display: none;
+    padding: 0;
+    list-style: none;
+    margin: 0;
+    background-color: #fff;
+    color: #9d9d9d;
+border-radius: 5px;
+    box-shadow: 1px 1px 3px 0 #00000047;
+    min-width: 160px;
+    min-height: 50px;
+}
+
+header> div{
+    width: 50% !important;
+}
+
+header ul.nav > li > a {
+    text-decoration: none;
+    padding: 20px;
+}
+
+header ul.nav > li > a:hover {
+    background-color: #eee;
+}
+.logo1 {
+    font-weight: lighter;
+        padding:15px;
+        font-size:36px;
+        color:#000;
+}
+
+.VK{
+    font-weight: lighter;
+    height: 30px;
+    font-size:22px;
+    color:#887c77;
+
+}
+
+.inner-products {
+    margin-top: -50px;
+    margin-bottom: 40px;
+}
+header ul.nav > li:hover > ul > li > a {
+    display: block;
+    cursor: pointer;
+    padding: 8px 20px;
+    border-bottom: 1px solid #eee;
+}
+header ul.nav > li:hover > ul > li:last-child > a{
+    border:none;
+}
+
+header ul.nav > li:hover > ul > li > a:hover {
+    background-color: #000;
+}
+
+header ul.nav > li{
+    position: relative;
+}
+header ul.nav > li:hover > ul{
+    display: inline-block;
+}
+.logo{
+    display:flex;
+    color: #9d9d9d;
+}
+
+.container1{
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+
+  /* text-decoration: none; */ 
+}
+.options {
+    display: flex;
+}
+
+
+
+.nav-option {
+    margin: 5%;
+}
+
+.search {
+    display: flex;
+        position: absolute;
+        top: 17px;
+        left: 960px;
+            height: 35px;
+            width: 55px;
+            border-radius: 10px;
+       
+}
+
+.engage{
+    padding-top: 3%;
+    background-color: #9acd32;
+    color: #adff2f;
+    padding-top: 30px;
+    padding-bottom: 80px;
+    margin-bottom: -50px;
+    display: flex;
+   /* align-content: center; */
+    padding-left:5%;
+   /* position: absolute; */
+   /* right:0;
+    left:0; */
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    overflow:auto;
+    
+}
+.all-products{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.div-products {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #a6a19d;
+    justify-content: center;
+    padding: 4%;
+    font-size: 14px;
+    
+}
+.products{
+    display: flex; 
+    flex-direction: column;
+    padding: 30px;
+    font-size: 14px; 
+}
+
+img{
+    width: 350px;
+    height: 270px; 
+    border-radius: 3%;
+}
+.div-dynamic {
+    background-color: #daa520
+}
+.all-dynamic{
+    display: flex;
+    padding-bottom: 40px;
+    margin-bottom: 5px;
+    justify-content: center;
+    align-content: center;
+    
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.dynamic{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+   
+   
+}
+
+.small-print {
+	background-color: #fff;
+	padding: 30px 0;
+    color: #a6a19d;
+    text-decoration: none; 
+    
+}
+.edit {
+    text-decoration: none;
+}
+
+.button {
+    display: flex;
+        position: relative;
+        top: 17px;
+        left: 0px;
+            height: 35px;
+            width: 55px;
+            border: 1px solid transparent;
+    border-radius: 4px;
+            color: #ffffff
+}
+
+
+
+
+
+
+
+https://www.google.com/search?q=n+heights+building&rlz=1C1VDKB_enIN996IN996&oq=n+higtes&aqs=chrome.2.69i57j0i13l2j46i13i175i199l3j0i13l3j0i5i13i30.7129j0j15&sourceid=chrome&ie=UTF-8#
+
+
