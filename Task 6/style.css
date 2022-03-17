@@ -1,0 +1,47 @@
+body{
+    align-content: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
+body div.div-edit{
+    
+width: 1000px;
+   height:1000px;
+background-color: rgb(245, 243, 220);
+border: 2px solid #000;
+box-sizing: border-box;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+
+}
+
+
+
+body div.div1-edit{
+    align-content: center;
+display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    
+
+}
+
+.table-edit{
+
+    border: 2px solid rgb(170, 189, 190);
+background-color:rgb(179, 208, 223);
+}    
+ th{
+     padding:10px;
+     background-color: rgb(135, 179, 13);
+ }
+ td{
+     background-color: rgb(235, 185, 109);
+ }
+ .button1-edit{
+     padding: 10px;
+     width: 70px;
+     height: 40px;
+ }
