@@ -23,7 +23,7 @@ public class Authentication implements Filter {
     public void doFilter(ServletRequest req, ServletResponse resp, FilterChain chain) throws IOException, ServletException {
         logger.info("welcome to loggers");
         PrintWriter out = resp.getWriter();
-        String user = req.getParameter("username");
+        String user = req.getParameter("name");
         String password = req.getParameter("password");
         if (password.equals("admin")) {
             logger.info("password correct");
